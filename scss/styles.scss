@@ -7,7 +7,6 @@ html {
     font-family: 'Red Hat Display', sans-serif;
 }
 
-@media only screen and (min-width: 320px) {
     .main {
         height: 100vh;
         width: 100vw;
@@ -139,21 +138,11 @@ html {
             }
         }
     }
-}
 
-@media only screen and (min-width: 768px) {
-    .main {
-        .container {
-            width: 25rem;
-        }
-    }
-
-}
 
 @media only screen and (min-width: 1024px) {
     .main {
         background-image: url(../images/pattern-background-desktop.svg);
-
         .header {
             display: flex;
             height: auto;
